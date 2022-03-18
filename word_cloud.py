@@ -16,7 +16,7 @@ app = Flask(__name__)
 font_path = 'NanumGothic.ttf'
 
 def get_tag(text, max_count, min_length):
-    # 명사만 추출합니다.
+    # 명사만 추출합니다..
     t = Twitter()
     nouns = t.nouns(text)
     processed = [n for n in nouns if len(n) >= min_length]
