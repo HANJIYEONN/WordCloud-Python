@@ -30,4 +30,4 @@ def get_tag(text, max_count, min_length):
     if len(result) == 0:
         result["내용이 없습니다."] = 1
     return result
-    #
+    ###..
