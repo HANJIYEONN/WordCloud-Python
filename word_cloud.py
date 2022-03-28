@@ -18,7 +18,7 @@ app = Flask(__name__, static_folder='outputs')
 CORS(app)
 
 # 폰트 경로 설정
-font_path = 'Z:/NanumGothic.ttf'
+font_path = 'NanumGothic.ttf'
 
 
 def get_tags(text, max_count, min_length):
